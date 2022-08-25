@@ -1,8 +1,8 @@
 function descargar(){
     const dowloat=document.createElement('a');
-    dowloat.href = 'img/cv.pdf';
+    dowloat.href = 'img/curriculum/cv.pdf';
     //dowloat.target = '_blank';
-    dowloat.download = "Estiven";
+    dowloat.download = "CV";
     document.body.appendChild(dowloat);
     dowloat.click();
     document.body.removeChild(dowloat);

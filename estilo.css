@@ -13,7 +13,7 @@ html {
 }
 
 #inicio{
-    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/fondo-inicio.jpg");
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("img/fondos/fondo-inicio.jpg");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -288,7 +288,7 @@ margin-bottom: 10px;
 
 /*SECCION DE HABILIDADES */
 .contenedor-skills{
-  background: linear-gradient(#eb5a5acc, rgba(33 , 16 , 16 , 0.8)),url("img/fondo-skills.jpg");
+  background: linear-gradient(#000000cc, rgba(0, 0, 0, 0.8)),url("img/fondos/fondo-skills.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -640,4 +640,6 @@ nav.responsive ul li{
     margin-bottom: 15px;
 }
 
+
 }
+
