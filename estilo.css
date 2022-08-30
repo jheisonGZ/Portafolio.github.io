@@ -135,13 +135,15 @@ display:none;
 }
 
 /*SECCION SOBRE MI */
+
+
+
 #sobremi{
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
     color: #111135;
     display: flex;
-    
 }
 #sobremi .contenedor-foto {
     max-width: 400px;
@@ -149,9 +151,9 @@ display:none;
 }
 
 #sobremi .contenedor-foto img{
-padding: 20px;
-width: 100%;
-border-radius: 20px;
+padding: 0px;
+width: 130%;
+border-radius: 100px;
 background-color:#f3f3f3;
 }
 
@@ -159,7 +161,7 @@ background-color:#f3f3f3;
     margin: 0 40px
 }
 
-#sobremi .sobremi .titulo-seccion{
+#sobremi .sobremi .titulo-seccion{  
 font-size: 22px;
 text-transform: uppercase ;
 color:#111135;
@@ -169,12 +171,12 @@ text-decoration-thickness: 5px;
 
 }
 
+ 
 #sobremi .sobremi h2{
     font-size: 34px;
     font-weight: bold;
     margin: 20px 0;
-    letter-spacing: 2px;
-    
+    letter-spacing: 2px;   
 }
 
 #sobremi .sobremi h2 span {
@@ -204,13 +206,13 @@ text-decoration-thickness: 5px;
     color: #000;
     border-radius: 30px;
     padding: 10px  20px;
-    border: 1px solid #000;
+    border: 2px solid #000;
     margin-top: 30px;
     transition: .5s;
 }
 
 #sobremi .sobremi a:hover{
-    background-color:#ff5080;
+    background-color:#c41342;
     color:#fff;
 }
 
@@ -218,7 +220,10 @@ text-decoration-thickness: 5px;
 #servicios{
     padding: 100px 15px;
     text-align: center;
-    background-color: #f3f3f3;
+    background: linear-gradient(#ffffffcc, rgba(255, 255, 255, 0.8)),url("img/fondos/fondo-skills2.jpg");
+     background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #servicios .titulo-seccion{
@@ -456,6 +461,7 @@ transition: .5s;
     opacity: 1;
     bottom: 0;
 }
+
 
 /*SECCION DE CONTACTO */
 
