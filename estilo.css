@@ -137,14 +137,23 @@ display:none;
 /*SECCION SOBRE MI */
 
 
+#sobremi{
+    background: linear-gradient(#ffffffcc, rgba(255, 255, 255, 0.9)),url("img/fondos/fondo-skills2.jpg");
+  background-size: cover;
+}
 
 #sobremi{
+
     max-width: 1100px;
     margin: auto;
     padding: 100px 15px;
     color: #111135;
     display: flex;
 }
+
+
+
+
 #sobremi .contenedor-foto {
     max-width: 400px;
     margin-right: 80px;
@@ -189,6 +198,7 @@ text-decoration-thickness: 5px;
     text-transform: uppercase;
     margin-bottom: 20px;
     letter-spacing: 1px;
+    text-align: center;
 }
 
 #sobremi .sobremi p{
@@ -196,6 +206,7 @@ text-decoration-thickness: 5px;
     line-height: 25px;
     color:#565656; 
     margin-bottom: 12px;
+    text-align: justify;
 
 
 }
@@ -214,7 +225,9 @@ text-decoration-thickness: 5px;
 #sobremi .sobremi a:hover{
     background-color:#c41342;
     color:#fff;
+    
 }
+
 
 /*SECCION DE SERVICIOS*/
 #servicios{
@@ -224,6 +237,7 @@ text-decoration-thickness: 5px;
      background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 
 #servicios .titulo-seccion{
@@ -233,14 +247,27 @@ color:#111135;
 text-decoration: underline;
 text-decoration-color:#d3d3d3;
 text-decoration-thickness: 5px;
+
 }
 
 #servicios .fila{
 display: flex;
 justify-content: space-between;
 max-width: 1100px;
-margin: 30px auto;  
+margin: 30px auto; 
 }
+
+#servicios .servicio p{
+    font-size: 14px;
+    line-height: 25px;
+    color:#565656; 
+    margin-bottom: 12px;
+    text-align: justify;
+
+
+}
+
+
 
 #servicios .fila .servicio{
     max-width: 350px;
@@ -249,6 +276,7 @@ margin: 30px auto;
     margin: 0 5px;
     border-radius: 5px;
     transition: .5s;
+    
 }
 
 #servicios .fila .servicio:hover{
@@ -258,6 +286,8 @@ box-shadow: 5px 5px 10px #565656 , -5px -5px 10px #8a8a8a;
 #servicios .fila .servicio h4{
     font-size: 22px;
     margin-bottom: 25px;
+   
+   
 }
 
 #servicios .fila .servicio .icono{
@@ -265,9 +295,11 @@ box-shadow: 5px 5px 10px #565656 , -5px -5px 10px #8a8a8a;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: #d3d3d3;
+    background-color: #bbb4b4;
     padding: 20px;
     margin-bottom: 25px;
+  
+  
 }
 
 #servicios .fila .servicio hr{
@@ -275,6 +307,7 @@ box-shadow: 5px 5px 10px #565656 , -5px -5px 10px #8a8a8a;
     margin: auto;
     color: #000;
     margin-bottom: 25px;
+
 
 }
 
@@ -284,11 +317,14 @@ display:  flex;
 justify-content: space-between;
 margin-bottom: 10px;
 
+
+
 }
 
 #servicios .fila .servicio p{
     font-size: 14px;
     line-height: 22px;
+
 }
 
 /*SECCION DE HABILIDADES */
